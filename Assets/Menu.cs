@@ -7,6 +7,7 @@ public class Menu : MonoBehaviour
 {
     [SerializeField] private Button _button;
     [SerializeField] private Window _window;
+    [SerializeField] private PopUpNoticeController _notification;
 
     void Start()
     {
